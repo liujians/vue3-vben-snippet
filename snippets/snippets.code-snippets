@@ -1,0 +1,49 @@
+{
+  "vue-vben-Page": {
+    "scope": "javascript,typescript,vue",
+    "prefix": "vue-vben-page",
+    "body": [
+      "<template>",
+      "  <PageWrapper>",
+      "    <div :class=\"`\\${prefixCls}`\">",
+      "      ${1:Template}",
+      "    </div>",
+      "  </PageWrapper>",
+      "</template>",
+      "<script lang=\"ts\" setup>",
+      "  import { PageWrapper } from '/@/components/Page';",
+      "  import { useI18n } from '/@/hooks/web/useI18n';",
+      "  import { useDesign } from '/@/hooks/web/useDesign';",
+      "  const { prefixCls } = useDesign('${1:Template}');",
+      "  const { t } = useI18n();",
+      "</script>",
+      "<style lang=\"less\" scoped>",
+      "  @prefix-cls: ~'@{namespace}-${1:Template}';",
+      "  .@{prefix-cls} { color:#333 }",
+      "</style>",
+    ],
+    "description": "vuePage基本结构"
+  },
+  "vue-components-base": {
+    "scope": "javascript,typescript,vue",
+    "prefix": "vue-vben-component",
+    "body": [
+      "<template>",
+      "  <div :class=\"`\\${prefixCls}`\">",
+      "    ${1:Template}",
+      "  </div>",
+      "</template>",
+      "<script lang=\"ts\" setup>",
+      "  import { useI18n } from '/@/hooks/web/useI18n';",
+      "  import { useDesign } from '/@/hooks/web/useDesign';",
+      "  const { prefixCls } = useDesign('${1:Template}');",
+      "  const { t } = useI18n();",
+      "</script>",
+      "<style lang=\"less\" scoped>",
+      "  @prefix-cls: ~'@{namespace}-${1:Template}';",
+      "  .@{prefix-cls} { color:#333 }",
+      "</style>",
+    ],
+    "description": "vueComponent基本结构"
+  }
+}

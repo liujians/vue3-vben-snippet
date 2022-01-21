@@ -1,0 +1,31 @@
+{
+    "name": "vue3-vben-snippet",
+    "displayName": "vue3-vben-snippet",
+    "description": "vue3在vben中使用的代码片段",
+    "publisher": "liujians",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "license": "MIT License",
+    "icon": "images/logo.png",
+    "categories": [
+        "Snippets"
+    ],
+    "keywords": [
+      "vue3",
+      "Vue3",
+      "vben",
+      "vBen",
+      "VBen",
+      "Vben"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "vue",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
