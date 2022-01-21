@@ -3,7 +3,7 @@
     "displayName": "vue3-vben-snippet",
     "description": "vue3在vben中使用的代码片段",
     "publisher": "liujians",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.63.0"
     },
@@ -20,6 +20,10 @@
       "VBen",
       "Vben"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/liujians/vue3-vben-snippet"
+      },
     "contributes": {
         "snippets": [
             {

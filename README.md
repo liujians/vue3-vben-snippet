@@ -4,6 +4,8 @@ vue3-vben-snippets 是一款快速生成 vue3+vben 页面结构的用户代码�
 
 效果图:
 
+![图片](./images/demo.gif)
+
 > vue-vben-page
 
 ```javascript
